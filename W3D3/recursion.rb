@@ -26,21 +26,15 @@ end
   def gamma_fnc(num)
     return nil if num == 0
     return 1 if num == 1
-    return 2 if num == 2
-    first = num + 0
-    val = (num)*gamma_fnc(num-1)
-    return val
+    val = num-1
+    val*gamma_fnc(num-1)
   end
 
-# #   gamma(5) = 4! = 4 *3!
-#     # Test Cases
+
 # p gamma_fnc(0)  # => returns nil
 # p gamma_fnc(1)  # => returns 1
 # p gamma_fnc(4)  # => returns 6
 # p gamma_fnc(8)  # => returns 5040
-
-# # 7  gam(6)
-# # 7  
 
 
 
