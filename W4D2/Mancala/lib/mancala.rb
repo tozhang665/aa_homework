@@ -55,7 +55,7 @@ class Mancala
       "Congrats, #{winner}!"
     end
   end
-
+  
   def print_indices
     puts "\nCup indices:"
     puts "12  11  10   9   8   7"
